@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<!-- Google Fonts Roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<!-- MDB ESSENTIAL -->
+	<link rel="stylesheet" href="css/mdb.min.css" />
+	<!-- MDB PLUGINS -->
+	<link rel="stylesheet" href="plugins/css/all.min.css" />
+	<!-- swiper css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="./fonts/style.css">
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Document</title>
+</head>
+
+<body class="registration">
+
+	<div class="registration_page">
+		<div class="registration_form">
+			<div class="mutistep_form">
+				<form action="" class="form">
+					<div class="wrap">
+						<div class="top">
+							<div class="">
+								<div class="headingsteps">
+									<div class="heading active">
+										<div class="title">
+											<h2>Création de compte</h2>
+											<p>Texte d’introduction afin d’informer et de rassurer les utilisateurs sur
+												la
+												gratuité
+												de l’inscription. Le processus s’étale sur 4 étapes et ne prends que 5
+												minutes.
+												Décrire l’étape 1 de l’inscription.</p>
+										</div>
+									</div>
+									<div class="heading">
+										<div class="title">
+											<h2>Société</h2>
+											<p>Texte d’introduction afin d’informer et de rassurer les utilisateurs sur
+												la
+												gratuité
+												de l’inscription. Décrire l’étape 2 de l’inscription.</p>
+										</div>
+									</div>
+									<div class="heading">
+										<div class="title">
+											<h2>Numéros administratif</h2>
+											<p>Texte d’introduction afin d’informer et de rassurer les utilisateurs sur
+												la
+												gratuité
+												de l’inscription. Décrire l’étape 3 de l’inscription.</p>
+										</div>
+									</div>
+									<div class="heading">
+										<div class="title">
+											<h2>Validation</h2>
+											<p>Texte d’introduction afin d’informer et de rassurer les utilisateurs sur
+												la
+												gratuité
+												de l’inscription. Décrire l’étape 3 de l’inscription.</p>
+										</div>
+									</div>
+								</div>
+								<div class="steps_progress">
+									<div class="tr_step cu_tr_step">
+										<div class="tr_step_num">1 <span class="ic_con icon-check"></span></div>
+										<p class="tr_step_text ">Compte</p>
+									</div>
+									<div class="tr_step">
+										<div class="tr_step_num">2<span class="ic_con icon-check"></span></div>
+										<p class="tr_step_text ">Société</p>
+									</div>
+									<div class="tr_step ">
+										<div class="tr_step_num">3<span class="ic_con icon-check"></span></div>
+										<p class="tr_step_text ">Numéros</p>
+									</div>
+									<div class="tr_step ">
+										<div class="tr_step_num">4<span class="ic_con icon-check"></span></div>
+										<p class="tr_step_text ">Validation</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="steps">
+								<div class="step active step1">
+									<div class="stepwrap">
+										<p class="info_text">Tous les champs sont nécessaires </p>
+										<div class="input-wrap mb-4">
+											<label for="email">Email</label>
+											<input type="text" id="email" placeholder="Renseignez votre email"
+												name="email">
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="password">Mot de passe</label>
+											<input type="password" id="password"
+												placeholder="Choisissez un mot de passe* de 8 caractères au minimum "
+												name="password">
+											<span class="error_text">*Votre mot de passe doit contenir une majuscule et
+												un
+												chiffre au minimum<span>
+										</div>
+									</div>
+								</div>
+								<div class="step step2">
+
+									<div class="stepwrap">
+										<p class="info_text">Tous les champs sont nécessaires</p>
+										<div class="input-wrap mb-4">
+											<label for="societe">Nom de la société</label>
+											<input type="text" id="societe"
+												placeholder="Renseignez le nom de votre société" name="societe">
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="adresse">Adresse</label>
+											<input type="text" id="adresse"
+												placeholder="Renseignez l’adresse de votre société" name="adresse">
+										</div>
+										<div class="row">
+											<div class="col-12 col-md-4">
+												<div class="input-wrap mb-4">
+													<label for="postal">Code postal</label>
+													<input type="text" id="postal" name="postal">
+												</div>
+											</div>
+											<div class="col-12 col-md-8">
+												<div class="input-wrap mb-4">
+													<label for="ville">Ville</label>
+													<input type="text" id="ville" name="ville">
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="step step3">
+									<div class="stepwrap">
+										<p class="info_text">Tous les champs sont nécessaires</p>
+										<div class="input-wrap mb-4">
+											<label for="intracommunautaire">TVA intracommunautaire </label>
+											<input type="text" id="intracommunautaire"
+												placeholder="TVA FR XX XXX XXX XXX" name="intracommunautaire">
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="nimero_siret">Numéro SIRET</label>
+											<input type="text" id="nimero_siret" placeholder="XX XXX XXX XXX XXXXX"
+												name="nimero_siret">
+										</div>
+									</div>
+								</div>
+								<div class="step step4">
+									<div class="stepwrap">
+										<p class="info_text">Tous les champs sont nécessaires</p>
+										<h3 class="fg_group_title">1. Compte</h3>
+										<div class="input-wrap mb-4">
+											<label for="email">Email renseigné</label>
+											<input type="text" id="email" placeholder="Renseignez votre email"
+												name="email">
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="password">Mot de passe renseigné</label>
+											<input type="password" id="password"
+												placeholder="Choisissez un mot de passe* de 8 caractères au minimum "
+												name="password">
+
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="societe">Société renseignée</label>
+											<input type="text" id="societe"
+												placeholder="Renseignez le nom de votre société" name="societe">
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="adresse">Adresse</label>
+											<input type="text" id="adresse"
+												placeholder="Renseignez l’adresse de votre société" name="adresse">
+										</div>
+										<h3 class="fg_group_title">2. Société</h3>
+										<div class="row">
+											<div class="col-12 col-md-4">
+												<div class="input-wrap mb-4">
+													<label for="postal">Code postal</label>
+													<input type="text" id="postal" name="postal">
+												</div>
+											</div>
+											<div class="col-12 col-md-8">
+												<div class="input-wrap mb-4">
+													<label for="ville">Ville</label>
+													<input type="text" id="ville" name="ville">
+												</div>
+											</div>
+										</div>
+										<h3 class="fg_group_title">3. Numéros administratif</h3>
+										<div class="input-wrap mb-4">
+											<label for="intracommunautaire">TVA intracommunautaire </label>
+											<input type="text" id="intracommunautaire"
+												placeholder="TVA FR XX XXX XXX XXX" name="intracommunautaire">
+										</div>
+										<div class="input-wrap mb-4">
+											<label for="nimero_siret">Numéro SIRET</label>
+											<input type="text" id="nimero_siret" placeholder="XX XXX XXX XXX XXXXX"
+												name="nimero_siret">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="buttons">
+							<a href="" class="btn prev-step"><span>Précédent</span></a>
+							<a href="" class="btn next-step"><span>SUIVANT</span></a>
+						</div>
+					</div>
+					<div class="modal_form_content">
+						<div class="form_modal">
+							<div class="modal_content_wraper">
+								<button type="button" class="select_item_clear">
+									<span class="icon-close-circle-outline"></span>
+								</button>
+
+								<div class="modal_content">
+									<h2>Félicitations !</h2>
+									<p class="modal_text">
+										Vous venez de vous inscrire sur Reoaked.
+										Nous venons de vous envoyer un mail pour finaliser votre demande d’inscription.
+										Merci de valider votre e-email afin de profiter pleinement de la plateforme.
+
+										Bonne journée.</p>
+
+									<button type="button" class="secondary_btn">Déposer une offre</button>
+									<br>
+									<a href="#">Aller sur mon espace personnel</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+
+
+			</div>
+		</div>
+		<div class="registration_caption">
+			<div class="caption_top">
+				<p class="caption_top_text">Transaction de fûts de seconde main</p>
+				<div class="captions_content">
+					<div class="captions_content_wrapper">
+						<img src="./img/co-logo.png" alt="">
+						<h3>
+							Accroche <br>
+							Promesse à trouver
+						</h3>
+						<p>« Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt
+							ut labore et dolore magna aliquyam »</p>
+					</div>
+				</div>
+				<img src="./img/logo-light.png" alt="" class="caption_top_image">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script src="js/popper.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- MDB PLUGINS -->
+	<script type="text/javascript" src="plugins/js/all.min.js"></script>
+	<!-- Initializations -->
+	<script src="js/lazy.js"></script>
+	<!-- swiper js -->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+	<script src="js/multistep-form.js"></script>
+	<script src="js/main.js"></script>
+	<!-- /SCRIPTS -->
+
+</body>
+
+</html>

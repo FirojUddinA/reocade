@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <!-- Font Awesome -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	  <!-- Google Fonts Roboto -->
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	  <!-- MDB ESSENTIAL -->
+	  <link rel="stylesheet" href="css/mdb.min.css" />
+	  <!-- MDB PLUGINS -->
+	  <link rel="stylesheet" href="plugins/css/all.min.css" />
+	  <!-- Custom styles -->
+	  <!-- swiper css -->
+	  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="./fonts/style.css">
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Document</title>
+</head>
+
+<body class="home_page">
+	<header class="sticky-top ">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg p-0">
+			<!-- megamenu toggle  button -->
+
+			<div  class="mega_menu">				
+				<span></span>
+			</div>
+
+			<!-- Navbar brand -->
+			<a class="navbar-brand " href="#">
+				<img src="./img/svgs/logo.svg" alt="MDB Logo" loading="lazy" />
+			</a>
+			<!-- Action Button -->
+			<a class="action-btn" href="#">
+				<span class="ic_con icon-acheter"></span>
+				<span class="clearfix d-none d-lg-inline-block ps-3">Déposer une offre</span>
+			</a>
+			<ul  class="nav navbar-nav ms-auto nave_menu">
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-search"></span>
+						
+						<span class="clearfix d-none d-lg-inline-block">Rechercher</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-bell-outline"></span>
+						<span class="clearfix d-none d-lg-inline-block">Mes recherches</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						
+						<span class="ic_con icon-heart-outline"></span>
+						<span class="clearfix d-none d-lg-inline-block">Favoris</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-envelop"></span>
+						<span class="clearfix d-none d-lg-inline-block">Messagerie</span>
+					</a>
+				</li>
+			</ul>		
+			<div class="">
+				<a href="#" class="mega_cart">
+					<span class="ic_con icon-transactions"></span>
+					<p class="cart_num">10</p>
+				</a>
+			</div>
+			<div class="">
+				<a href="#" class="my_account">
+					<span class="ic_con icon-person-circle"></span>
+					<span class="hide_text">Account</span>
+				</a>
+			</div>
+		</nav>
+		<!-- /.Navbar -->
+		<!-- megamenu -->
+
+		<div class="mega_menu_content">
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">A propos</a>
+					<p>Nos services et expertises</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">Charte qualité</a>
+					<p>Texte de présentation de la charte qualité de Reoaked</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">FAQ</a>
+					<p>Texte de présentation pour la FAQ de la plateforme</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">Nos Offres</a>
+					<p>Texte de présentation du service payant de Reoaked</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">Dans le monde</a>
+					<p>Texte de présentation sur la dimension internationale de la plateforme</p>
+				</div>
+				
+		</div>
+	</header>
+	<!--/.Double navigation-->
+	<div class="fixed_navigation">
+		<div class="nav_content">
+			<div class="back">			
+				<div class="back_btn">
+					<span class="ic_con icon-arrow-collapse-right"></span>
+					<span class="open_fix_nav">Déployer</span>
+					<span class="close_fix_nav">Fermer</span>
+				</div>				
+			</div>
+			<ul class="fixed_nav  mb-1">				
+				<li class="fixed_nav_item">
+					<a href="#">
+						<span class="ic_con icon-view-dashboard-outline"></span>
+						<span class="hide_nav_text">Mon compte</span>
+					</a>
+				</li>
+				<li class="fixed_nav_item">
+					<a href="#">
+						<span class="ic_con icon-acheter"></span>
+						<span class="hide_nav_text">Annonces en ligne</span>
+
+					</a>
+				</li>
+				<li class="fixed_nav_item">
+					<a href="#">
+						<span class="ic_con icon-transactions"></span>
+						<span class="hide_nav_text">Transactions</span>
+					</a>
+				</li>
+				
+			</ul>
+			<ul class="fixed_nav ">				
+				<li class="fixed_nav_item">
+					<a href="#">
+						<span class="ic_con icon-heart-outline"></span>
+						<span class="hide_nav_text">Favoris</span>
+					</a>
+				</li>
+				<li class="fixed_nav_item">
+					<a href="#">
+						<span class="ic_con icon-account-outline"></span>
+						<span class="hide_nav_text">Protil</span>
+					</a>
+				</li>
+				<li class="fixed_nav_item">
+					<a href="#">
+						<span class="ic_con icon-shield-account-outline"></span>
+						<span class="hide_nav_text">Connexions & securite</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--Main layout-->
+	<section class="annonces_en my-5">
+		<div class="container">
+			<h2 class="titel_text">Annonces en ligne</h2>
+
+			<div class="annonces_filter">
+				<div class="annonces_filter_switcher">
+
+					<input type="checkbox" id="s1" class="hidden"/>
+					<label class="slider-v1" for="s1"></label>
+					<span class="sl">Annonces en ligne</span>
+					<span class="sr">Annonces </span>
+				</div>
+
+				<div class="annonces_filter_selector">
+					<div class="filter_selector">
+						<p class="selector_text">Trier par :</p>
+						<div class="custom_select">
+							<div class="select_title">
+								<span class="selected">Choisir</span>
+								<span class="icon-menu-down"></span>
+							</div>
+							<input type="hidden" name="date" id="data_input">
+							<ul class="select_menu">
+								<li id="20190718">2019 / 07 / 18</li>
+								<li id="20190719">2019 / 07 / 19</li>
+								<li id="20190720">2019 / 07 / 20</li>
+							</ul>
+						</div>
+					</div>
+					<div class="filter_selected">
+						<div class="selector_text">Tri actif :</div>
+						<p class="select_item">
+							<button class="select_item_clear">
+								<span class="ic_con icon-close-circle-outline"></span>
+							</button>
+							<span>Date de mise en ligne</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="annonces">
+						<div class="annonces_l">
+							<img src="./img/product_2.jpg" alt="">
+							<a href="#" class="action_button edit">
+								<span class="ic_con icon-lead-pencil"></span>
+							</a>
+							<button class="action_button delete">
+								<span class="ic_con icon-trash-can-outline"></span>
+							</button>
+						</div>
+						<div class="annonces_r">
+							<div class="a_top">
+								<h1 class="product_name">Lot de 10 fûts de 228L </h1>
+								<p class="product_price">1 200 €</p>
+							</div>
+
+							<div class="a_bottom ">
+								<div class="annonces_description">
+									<div class="img_wrap">
+										<span class="icon-calendar-today"></span>
+									</div>
+									<p>Mise en ligne le : <b>03/02/2021</b></p>
+								</div>
+
+								<div class="annonces_description">
+									<div class="img_wrap">
+										<span class="icon-calendar-cursor"></span>
+									</div>
+
+									<p>Date d’expiration : <b></b>15/03/2022</b></p>
+								</div>
+								<div class="annonces_description">
+									<p>Annonce consultées <b>16 fois</b></p>
+								</div>
+								<div class="annonces_description">
+									<p>Offre(s) reçue(s) : <b>2</b></p>
+								</div>
+							</div>
+							<div class="a_description">
+								<p class="description">Description des fûts</p>
+								<div class="a_des">					
+									<div class="a_des_c a_des_c1 ">
+										<div class="a_des_c3">
+											<div class="products_des_body">
+												<div class="product_description">
+													<div class="img_wrap">
+														<img src="./img/svgs/Vin.svg" alt="">
+													</div>
+													<p>Vin Blanc</p>
+												</div>
+			
+												<div class="product_description">
+													<div class="img_wrap">
+														<img src="./img/svgs/Bottle.svg" alt="">
+													</div>
+			
+													<p><b>228 litres</b></p>
+												</div>
+											</div>
+											<div class="products_des_body">
+												<div class="product_description">
+													<div class="img_wrap">
+														<img src="./img/svgs/geo.svg" alt="">
+													</div>
+			
+													<p>Origine du bois : FRANCE</p>
+												</div>
+												<div class="product_description">
+													<div class="img_wrap">
+														<img src="./img/svgs/calendar-outline.svg" alt="">
+													</div>
+			
+													<p>Dernier soutirage le <b>23/11/2021</b></p>
+												</div>
+											</div>
+										</div>
+										
+										<div class="products_des_body">
+								
+											<div class="product_description">
+												<div class="img_wrap">
+													<img src="./img/svgs/barrel.svg" alt="">
+												</div>
+		
+												<p><b>Tonnellerie BARON |</b>  2 élevages</p>
+											</div>						
+										</div>
+									</div>
+
+									<div class="a_des_c a_des_c2">
+										<div class="products_des_body">
+								
+											<div class="product_description">
+												<div class="img_wrap">
+													<img src="./img/svgs/factory.svg" alt="">
+												</div>
+		
+												<p><b>Bois</b> | Très fin 
+													Épaisseur de 22 mm 
+													Temps de séchage de 18 mois
+													Chauffe moyenne</p>
+											</div>						
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="toggle_annonces">
+								<span class="ic_con icon-chevron-up"></span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!--/Main layout-->
+
+	<!--Footer-->
+	<footer class="footer">
+		<!--Copyright-->
+		<div class="container-fluid py-3 px-4">
+			<div class=" footer-copyright">
+				<ul class="footer-links">
+					<li>
+						<a href="" class="footer-link">Contact Presse</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Mentions légales</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Conditions d’utilisation</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Politique de confidentialité</a>
+					</li>
+				</ul>
+
+				<a href="" class="social_links"><img src="img/svgs/MDI - linkedin.svg" alt="linkedin"></a>
+
+				<p class="copy_text">
+					Copyright © Reoaked 2021 | Design by : <a href="http://www.MDBootstrap.com">Showmenow</a>
+				</p>
+			</div>
+		</div>
+		<!--/.Copyright-->
+
+	</footer>
+
+
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script src="js/popper.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- MDB PLUGINS -->
+	<script type="text/javascript" src="plugins/js/all.min.js"></script>
+	<!-- Initializations -->
+	<script src="js/lazy.js"></script>
+	<!-- swiper js -->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+	<script src="js/main.js"></script>
+	<!-- /SCRIPTS -->
+
+</body>
+
+</html>

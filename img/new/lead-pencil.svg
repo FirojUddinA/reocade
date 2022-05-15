@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="lead-pencil" transform="translate(-1361 -408)">
+    <g id="Boundary" transform="translate(1361 408)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_lead-pencil" data-name="Path / lead-pencil" d="M16.84,2.73a1.532,1.532,0,0,0-1.07.44L13.65,5.29l5.3,5.31,2.12-2.1a1.5,1.5,0,0,0,0-2.14L17.9,3.17a1.526,1.526,0,0,0-1.06-.44M12.94,6l-8.1,8.11,2.56.28.18,2.29,2.28.17.29,2.56,8.1-8.11m-14,3.74L2.5,21.73l6.7-1.79-.24-2.16-2.31-.17-.18-2.32" transform="translate(1360.5 408.27)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,436 @@
+
+.transaction {
+  .titel_text {
+    &::before {
+      left: -750px;
+    }
+  }
+
+
+  .annonces {
+    display: flex;
+    box-shadow: 10px 10PX 30px rgba($color: $color_navy, $alpha: .3);
+    background-color: $color_white;
+    position: relative;
+    margin-bottom: 50px;
+
+    .annonces_l {
+      position: relative;
+      max-width: 295px;
+      width: 100%;
+
+      img {
+        max-width: 295px;
+        width: 100%;
+        height: 100%;
+        max-height: 290px;
+        object-fit: cover;
+      }
+
+      .action_button {
+        position: absolute;
+        background-color: $bg-color;
+        z-index: 22;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 0;
+        right: 0;
+        transform: translateX(50%);
+        transition: .3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        box-shadow: 0 0 10px rgba($color: $color_navy, $alpha: .5);
+
+        span::before {
+          transition: .3s;
+        }
+
+        &:hover {
+          background-color: white;
+
+          span::before {
+            color: $bg-color;
+          }
+        }
+      }
+
+      .edit {
+        top: calc(25% - 22px);
+      }
+
+      .delete {
+        bottom: calc(25% - 22px);
+      }
+    }
+
+    .annonces_r {
+      flex: 1;
+      margin-left: 30px;
+      position: relative;
+      overflow: hidden;
+
+      .a_top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $color_secondary_light;
+
+        .product_price {
+          padding: 13px 24px;
+          // background-color: $bg-color-2;
+          font-family: $f-popins;
+          font-size: 26px;
+          margin-bottom: 0;
+          line-height: 1.2em;
+          font-weight: 300;
+          color: $color_black;
+        }
+
+        .product_name {
+          font-family: $f-bodoni;
+          font-weight: 400;
+          font-size: 28px;
+          color: $color_black;
+          margin-bottom: 0;
+        }
+      }
+
+      .a_bottom {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        .products_des_body{
+          margin-left: 0 !important;
+        }
+        .annonces_description {
+          display: flex;
+          width: 50%;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 10px 0;
+
+          .img_wrap {
+            width: 30px;
+            margin-right: 10px;
+            text-align: center;
+
+            img {
+              max-height: 24px;
+            }
+          }
+
+          p {
+            width: 90%;
+            margin: 0;
+            color: $color_navy;
+            font-family: $f-popins;
+            font-size: 18px;
+            font-weight: 400;
+
+            b {
+              font-weight: 500;
+            }
+          }
+        }
+      }
+
+      .a_description {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        z-index: 1;
+        padding: 20px 0;
+        transition: .3s;
+
+        .description {
+          font-weight: bold;
+        }
+
+        .a_show {
+          top: 0;
+        }
+      }
+
+      .a_des {
+        display: flex;
+
+        .a_des_c1 {
+          width: 65%;
+
+          .a_des_c3 {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 20px;
+          }
+        }
+
+        .a_des_c2 {
+          width: 35%;
+        }
+      }
+
+      .a_des_c {
+        .products_des_body{
+          margin-left: 0;
+        }
+        .product_description {
+          margin-bottom: 10px;
+        }
+
+        .img_wrap {
+          img {
+            max-height: 20px;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+
+      .a_des_c2 {
+        padding: 0 15px;
+
+        .product_description {
+          align-items: flex-start;
+        }
+      }
+    }
+
+    
+  }
+
+  .steps_progress {
+    .tr_step {
+      min-width: 100px;
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        text-align: center;
+        width: calc(100% / 8 * 2);
+
+        &::before,
+        &::after {
+          width: 100%;
+        }
+      }
+
+      &:first-child,
+      &:last-child {
+        width: calc(100% / 8);
+
+        &::before {
+
+          width: 50%;
+
+        }
+      }
+
+    }
+  }
+
+  .transaction_st {
+    margin: 50px 0;
+
+    .card {
+      background-color: #F7F7F7;
+
+      // background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      display: block;
+      height: 100%;
+      box-shadow: 10px 10PX 30px rgba($color: $color_navy, $alpha: .3);
+      // background-color: #fff;
+      border-radius: 15px;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        height: 60px;
+        width: 190px;
+        content: '';
+        background-image: url(../img/logo-gray.png);
+        background-repeat: no-repeat;
+      }
+
+      .btn {
+        padding: 12px 30px;
+        font-size: 12px;      
+        @include gray_rev_common_btn;
+
+      }
+
+      .with_review {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .with_review_container {
+          .with_review_star {
+            img {
+              padding: 2px;
+            }
+          }
+
+          .with_review_text {
+            margin-top: 8px;
+            margin-bottom: 0;
+            text-align: center;
+            font-family: $f-popins;
+            font-size: 18px;
+            font-weight: 300;
+            color: $color_navy;
+          }
+        }
+      }
+
+      .with_form {
+        max-width: 85%;
+        .compt_text {
+          margin-bottom: 0 !important;
+        }
+
+        .form {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .btn {
+            margin-left: 16px;
+          }
+        }
+      }
+
+      .form_transport {
+        .date_group {
+          display: flex;
+          align-items: stretch;
+
+          .btn {
+            margin: 0;
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+
+    &.compte_step_3 {
+      .card {
+        background-color: #fff;
+      }
+    }
+
+    .card-body {
+      position: relative;
+      padding: 1.5rem;
+      height: 100%;
+
+      .compte_de2_heading {
+        font-family: $f-popins;
+        font-size: 22px;
+        font-weight: bold;
+        color: $color_secondary_light;
+        text-align: left;
+      }
+
+      .compt_text {
+        font-family: $f-popins;
+        font-size: 18px;
+        font-weight: 300;
+        color: $color_navy;
+        text-align: left;
+        max-width: 85%;
+      }
+
+      .with_btn {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-basis: auto;
+        max-width: 85%;
+
+        &.with_btn_end {
+          align-items: flex-end !important;
+        }
+
+        .btn {
+          // width: 100%;
+        }
+
+        .with_compt_text {
+          flex: 1;
+          font-family: $f-popins;
+          font-size: 18px;
+          font-weight: 300;
+          color: $color_navy;
+          text-align: left;
+          // max-width: 70%;
+        }
+      }
+
+      .compt_data {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .mun {
+          font-family: $f-barlow;
+          font-weight: 900;
+          font-size: 36px;
+          color: $bg-color-2;
+
+          margin: 0 16px 0 0;
+        }
+
+        .comp_data_text {
+          font-family: $f-popins;
+          font-size: 18px;
+          font-weight: 300;
+          margin: 0;
+          color: $color_navy;
+
+        }
+      }
+    }
+
+    &.compte_step_1 {
+      .card {
+        background-image: url(../img/felicitation.png);
+      }
+    }
+
+    &.compte_step_2 {
+      .card {
+        background-image: url(../img/felicitation2.png);
+      }
+    }
+
+    &.compte_step_3 {
+      .card {
+        background-image: url(../img/felicitation3.png);
+      }
+    }
+
+    &.compte_step_4 {
+      .card {
+        // background-image: url(../img/felicitation4.png);
+      }
+    }
+
+
+
+  }
+
+}

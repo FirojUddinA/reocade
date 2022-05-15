@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!--<link rel="stylesheet" href="css/all.css">-->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="./fonts/style.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+
+
+
+<body class="home_page">
+    <header class="sticky-top ">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg p-0">
+            <!-- megamenu toggle  button -->
+
+            <div class="mega_menu">
+                <span></span>
+            </div>
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand " href="#">
+                <img src="./img/svgs/logo.svg" alt="MDB Logo" loading="lazy" />
+            </a>
+            <!-- Action Button -->
+            <a class="action-btn" href="#">
+                <span class="ic_con icon-acheter"></span>
+                <span class="clearfix d-none d-lg-inline-block ps-3">Déposer une offre</span>
+            </a>
+			<ul  class="nav navbar-nav ms-auto nave_menu">
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span class="ic_con icon-search"></span>
+
+                        <span class="clearfix d-none d-lg-inline-block">Rechercher</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span class="ic_con icon-bell-outline"></span>
+                        <span class="clearfix d-none d-lg-inline-block">Mes recherches</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+
+                        <span class="ic_con icon-heart-outline"></span>
+                        <span class="clearfix d-none d-lg-inline-block">Favoris</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span class="ic_con icon-envelop"></span>
+                        <span class="clearfix d-none d-lg-inline-block">Messagerie</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="">
+                <a href="#" class="mega_cart">
+                    <span class="ic_con icon-transactions"></span>
+                    <p class="cart_num">10</p>
+                </a>
+            </div>
+            <div class="">
+                <a href="#" class="my_account">
+                    <span class="ic_con icon-person-circle"></span>
+                    <span class="hide_text">Account</span>
+                </a>
+            </div>
+        </nav>
+        <!-- /.Navbar -->
+        <!-- megamenu -->
+
+        <div class="mega_menu_content">
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">A propos</a>
+                <p>Nos services et expertises</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">Charte qualité</a>
+                <p>Texte de présentation de la charte qualité de Reoaked</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">FAQ</a>
+                <p>Texte de présentation pour la FAQ de la plateforme</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">Nos Offres</a>
+                <p>Texte de présentation du service payant de Reoaked</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">Dans le monde</a>
+                <p>Texte de présentation sur la dimension internationale de la plateforme</p>
+            </div>
+
+        </div>
+    </header>
+
+    <div id="mdb-lightbox-ui"></div>
+    <div class=" mdb-lightbox no-margin ">
+        <!-- Slides -->
+        <figure class="swiper-slide">
+            <a href="./img/product_image.jpg" data-size="1600x1067">
+                <img src="./img/product_image.jpg" class="img-fluid">
+            </a>
+
+        </figure>
+        <figure class="swiper-slide">
+            <a href="./img/product_image.jpg" data-size="1600x1067">
+                <img src="./img/product_image.jpg" class="img-fluid">
+            </a>
+
+        </figure>
+
+        <figure class="swiper-slide">
+            <a href="./img/product_image.jpg" data-size="1600x1067">
+                <img src="./img/product_image.jpg" class="img-fluid">
+            </a>
+
+        </figure>
+        <figure class="swiper-slide">
+            <a href="./img/product_image.jpg" data-size="1600x1067">
+                <img src="./img/product_image.jpg" class="img-fluid">
+            </a>
+
+        </figure>
+        <figure class="swiper-slide">
+            <a href="./img/product_image.jpg" data-size="1600x1067">
+                <img src="./img/product_image.jpg" class="img-fluid">
+            </a>
+
+        </figure>
+    </div>
+    <!--Main layout-->
+    <!-- <section class="modifier my-5">
+        <div class="container">
+            <h2 class="titel_text">Lot de 10 fûts de 228L</h2>
+
+            <div class="modifier_content">
+                <div class="steps">
+                    <h4 class="step_heading">1. Vos photos</h4>
+                    <div class="step_box">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="main_img">
+                                    <input type="file" id="main_image" class="hidden">
+                                    <label for="main_image">
+                                        <img src="./img/svg/phote_up.svg" alt="">
+                                    </label>
+                                    <div class="uploaded_image">
+                                        <img src="./img/product_2.jpg" alt="" class="up_image">
+
+                                        <label for="main_image" class="action_button edit">
+                                            <span class="icon-lead-pencil"></span>
+                                        </label>
+                                        <button class="action_button delete">
+                                            <span class="icon-trash-can-outline"></span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-7">
+                                <div class="more_img_content">
+                                    <p>Vous pouvez ajouter, modifier ou supprimer les photos que vous avez téléchargées.
+                                    </p>
+                                    <div class="more_images">
+                                        <div class="main_img">                                    
+                                            <label for="main_image">
+                                                <input class="file_upload1" id="main_image" name="file_cover" type="file">
+                                                <img id="previewImg" src="./img/svg/phote_up.svg" alt="">
+                                            </label>                                                                                     
+                                            <label for="main_image" class="action_button edit">
+                                                <span class="icon-lead-pencil"></span>
+                                            </label>
+                                            <button class="action_button delete">
+                                                <span class="icon-trash-can-outline"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section> -->
+
+
+    <input type="text">
+
+
+    <!--/Main layout-->
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script src="js/lazy.js"></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>

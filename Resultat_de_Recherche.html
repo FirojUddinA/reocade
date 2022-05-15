@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<!-- Google Fonts Roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<!-- MDB ESSENTIAL -->
+	<link rel="stylesheet" href="css/mdb.min.css" />
+	<!-- MDB PLUGINS -->
+	<link rel="stylesheet" href="plugins/css/all.min.css" />
+	<!-- swiper css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="./fonts/style.css">
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Document</title>
+</head>
+
+
+
+
+<body class="home_page">
+	<header class="sticky-top ">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg p-0">
+			<!-- megamenu toggle  button -->
+
+			<div class="mega_menu">
+				<span></span>
+			</div>
+
+			<!-- Navbar brand -->
+			<a class="navbar-brand " href="#">
+				<img src="./img/svgs/logo.svg" alt="MDB Logo" loading="lazy" />
+			</a>
+			<!-- Action Button -->
+			<a class="action-btn" href="#">
+				<span class="ic_con icon-acheter"></span>
+				<span class="clearfix d-none d-lg-inline-block ps-3">Déposer une offre</span>
+			</a>
+			<ul  class="nav navbar-nav ms-auto nave_menu">
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-search"></span>
+
+						<span class="clearfix d-none d-lg-inline-block">Rechercher</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-bell-outline"></span>
+						<span class="clearfix d-none d-lg-inline-block">Mes recherches</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+
+						<span class="ic_con icon-heart-outline"></span>
+						<span class="clearfix d-none d-lg-inline-block">Favoris</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-envelop"></span>
+						<span class="clearfix d-none d-lg-inline-block">Messagerie</span>
+					</a>
+				</li>
+			</ul>
+			<div class="">
+				<a href="#" class="mega_cart">
+					<span class="ic_con icon-transactions"></span>
+					<p class="cart_num">10</p>
+				</a>
+			</div>
+			<div class="">
+				<a href="#" class="my_account">
+					<span class="ic_con icon-person-circle"></span>
+					<span class="hide_text">Account</span>
+				</a>
+			</div>
+		</nav>
+		<!-- /.Navbar -->
+		<!-- megamenu -->
+
+		<div class="mega_menu_content">
+			<div class="menu_content">
+				<a href="#" class="menu_title_lint">A propos</a>
+				<p>Nos services et expertises</p>
+			</div>
+			<div class="menu_content">
+				<a href="#" class="menu_title_lint">Charte qualité</a>
+				<p>Texte de présentation de la charte qualité de Reoaked</p>
+			</div>
+			<div class="menu_content">
+				<a href="#" class="menu_title_lint">FAQ</a>
+				<p>Texte de présentation pour la FAQ de la plateforme</p>
+			</div>
+			<div class="menu_content">
+				<a href="#" class="menu_title_lint">Nos Offres</a>
+				<p>Texte de présentation du service payant de Reoaked</p>
+			</div>
+			<div class="menu_content">
+				<a href="#" class="menu_title_lint">Dans le monde</a>
+				<p>Texte de présentation sur la dimension internationale de la plateforme</p>
+			</div>
+
+		</div>
+	</header>
+
+	<!--Main layout-->
+	<section class="search_page my-5">
+		<div class="container">
+			<h2 class="titel_text">Votre résultat de recherche </h2>
+
+
+			<p class="_text2">Il y a <span class="text_primary">2486 offres</span> qui correspondent aux critères de
+				recherche. </p>
+
+			<form action="" class="search_form">
+				<div class="row mb-3">
+					<div class="col-md-6 col-lg-4  mb-3">
+						<label class="input_title" for="recherche">Recherche</label>
+						<div class="d-flex align-items-center">
+							<input type="text" id="recherche" class="" placeholder="">
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3  mb-3">
+						<label class="input_title" for="nombre">Nombre de fûts </label>
+						<div class="d-flex align-items-center">
+							<input type="number" id="nombre" class="" placeholder="">
+							<p class="m-0 ps-3">fûts</p>
+						</div>
+					</div>
+					<div class="col-lg-5 mb-3">
+						<label class="input_title" for="recherche">Prix</label>
+						<div class="d-flex align-items-center ">
+							<div class="flex-1">
+								<div class="prefix_input">
+									<input type="number" id="prix" class="" placeholder="">
+									<p>€</p>
+								</div>
+							</div>
+							<div class="mx-2">
+								<span>entre</span>
+							</div>
+							<div class="flex-1">
+								<div class="prefix_input">
+									<input type="number" id="" class="" placeholder="">
+									<p>€</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+
+				<div class="row">
+					<div class="col-lg-5  mb-3">
+						<div class="row">
+							<div class="col-6">
+								<div class="custom_select">
+									<div class="select_title">
+										<span class="selected">Type de vin</span>
+										<span class="icon-menu-down"></span>
+									</div>
+									<input type="hidden" name="capacite" class="data_input">
+									<ul class="select_menu">
+										<li id="73">Type de vin <span class="select_badge">2</span></li>
+										<li id="83">Type de vin 2</li>
+										<li id="93">Type de vin 3</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="custom_select">
+									<div class="select_title">
+										<span class="selected">Capacité</span>
+										<span class="icon-menu-down"></span>
+									</div>
+									<input type="hidden" name="capacite" class="data_input">
+									<ul class="select_menu">
+										<li id="72">Capacité</li>
+										<li id="82">Capacité 2</li>
+										<li id="92">Capacité 3</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7  mb-3">
+						<div class="row">
+							<div class="col-5">
+								<div class="custom_select">
+									<div class="select_title">
+										<span class="selected">Origine du bois</span>
+										<span class="icon-menu-down"></span>
+									</div>
+									<input type="hidden" name="capacite" class="data_input">
+									<ul class="select_menu">
+										<li id="71">Origine du bois</li>
+										<li id="81">Origine du bois 2</li>
+										<li id="91">Origine du bois 3</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-7">
+								<div class="custom_select">
+									<div class="select_title">
+										<span class="selected">Date du dernier soutirage </span>
+										<span class="icon-menu-down"></span>
+									</div>
+									<input type="hidden" name="capacite" class="data_input">
+									<ul class="select_menu">
+										<li id="70">Date du dernier soutirage </li>
+										<li id="80">Date du dernier soutirage 2</li>
+										<li id="90">Date du dernier soutirage 3</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="filter_modal row mt-3">
+					<div class="col-12">
+						<button type="button" class="primary_rev_btn">Tous les filtres <span
+								class="ic_con ms-2 icon-tune-variant"></span></button>
+					</div>
+
+
+					<div class="modal_content">
+						<div class="col-12 my-4">
+							<div class="row">
+								<div class="col-md-6 col-lg-3 mb-3">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">Épaisseur du bois</span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="capacite" class="data_input">
+										<ul class="select_menu">
+											<li id="732">Épaisseur du bois</li>
+											<li id="832">Épaisseur du bois 2</li>
+											<li id="932">Épaisseur du bois 3</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-2 mb-3">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">Capacité</span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="capacite" class="data_input">
+										<ul class="select_menu">
+											<li id="725">Chauffe</li>
+											<li id="825">Chauffe 2</li>
+											<li id="925">Chauffe 3</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-6 col-lg-3  mb-3">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">Nombre d’élevage</span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="capacite" class="data_input">
+										<ul class="select_menu">
+											<li id="714">Nombre d’élevage</li>
+											<li id="814">Nombre d’élevage 2</li>
+											<li id="914">Nombre d’élevage 3</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-4  mb-3">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">Date du dernier soutirage </span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="capacite" class="data_input">
+										<ul class="select_menu">
+											<li id="703">Date du dernier soutirage </li>
+											<li id="803">Date du dernier soutirage 2</li>
+											<li id="903">Date du dernier soutirage 3</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-12  mb-3">
+									<label class="input_title" for="fabricant">Fabricant</label>
+									<div class="d-flex align-items-center">
+										<input type="text" id="fabricant" class="" placeholder="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="d-flex justify-content-center">
+					<a href="#" class="secondary_btn">rechercher </a>
+				</div>
+				<div class="sauvegarder">
+					<a href="#"><span class="icon-bell-plus-outline pe-3"></span> Sauvegarder la recherche</a>
+				</div>
+			</form>
+
+
+			<div class="row products my-5">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
+					<div class="products_card">
+						<div class="prodict_image">
+							<img src="./img/product_2.jpg" alt="">
+							<div class="prodict_image_price">1 200 €</div>
+							<h3 class="product_name">Lot de 10 fûts de 228L. Lorem ipsum dolor sit, consecte …</h3>
+
+						</div>
+						<div class="products_card_body">
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/Vin.svg" alt="">
+								</div>
+								<p>Vin Blanc</p>
+							</div>
+
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/Bottle.svg" alt="">
+								</div>
+
+								<p><b>228 litres</b></p>
+							</div>
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/geo.svg" alt="">
+								</div>
+
+								<p>Origine du bois : FRANCE</p>
+							</div>
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/calendar-outline.svg" alt="">
+								</div>
+
+								<p>Dernier soutirage le <b>23/11/2021</b></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
+					<div class="products_card">
+						<div class="prodict_image">
+							<img src="./img/product_2.jpg" alt="">
+							<div class="prodict_image_price">1 200 €</div>
+							<h3 class="product_name">Lot de 10 fûts de 228L. Lorem ipsum dolor sit, consecte …</h3>
+
+						</div>
+						<div class="products_card_body">
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/Vin.svg" alt="">
+								</div>
+
+								<p>Vin Blanc</p>
+							</div>
+
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/Bottle.svg" alt="">
+								</div>
+
+								<p><b>228 litres</b></p>
+							</div>
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/geo.svg" alt="">
+								</div>
+
+								<p>Origine du bois : FRANCE</p>
+							</div>
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/calendar-outline.svg" alt="">
+								</div>
+
+								<p>Dernier soutirage le <b>23/11/2021</b></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
+					<div class="products_card">
+						<div class="prodict_image">
+							<img src="./img/product_2.jpg" alt="">
+							<div class="prodict_image_price">1 200 €</div>
+							<h3 class="product_name">Lot de 10 fûts de 228L. Lorem ipsum dolor sit, consecte …</h3>
+
+						</div>
+						<div class="products_card_body">
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/Vin.svg" alt="">
+								</div>
+
+								<p>Vin Blanc</p>
+							</div>
+
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/Bottle.svg" alt="">
+								</div>
+
+								<p><b>228 litres</b></p>
+							</div>
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/geo.svg" alt="">
+								</div>
+
+								<p>Origine du bois : FRANCE</p>
+							</div>
+							<div class="product_description">
+								<div class="img_wrap">
+									<img src="./img/svgs/calendar-outline.svg" alt="">
+								</div>
+
+								<p>Dernier soutirage le <b>23/11/2021</b></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="load_more col-12">
+					<a href="#" class="product_loadmore">
+						<span>Voir toutes les offres</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="container py-5">
+			<h2 class="title_text text-center">Nous faire confiance</h2>
+			<p class="_text text-center pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in faucibus
+				eros. Donec sit
+				amet turpis ultrices, mattis turpis quis, cursus justo. Curabitur iaculis nunc ac mauris auctor blandit.
+				Nullam luctus at mauris convallis aliquet. Donec fermentum neque nec ornare aliquet. </p>
+
+			<div class="row">
+				<div class="col-12 col-lg-4 mb-4">
+					<div class="card">
+						<img src="./img/svgs/users.svg " class="card-img-top" alt="Fissure in Sandstone" />
+						<div class="card-body">
+							<h5 class="card-title">Large communauté</h5>
+							<p class="card-text">Vendez vos barriques aux viticulteurs et distillateurs du <b>monde
+									entier</b>.
+								<br>
+								Retrouvez des fûts rares, ayant contenu les plus grands vins et spiritueux.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 mb-4">
+					<div class="card">
+						<img src="./img/svgs/shield.svg" class="card-img-top" alt="Fissure in Sandstone" />
+						<div class="card-body">
+							<h5 class="card-title">Sécurisé et sûr</h5>
+							<p class="card-text">Chaque utilisateur de Reoaked est un <b>professionnel qualifié. </b>
+
+								Nous <b>sécurisons la transaction</b> et organisons la logistique.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 mb-4">
+					<div class="card">
+						<img src="./img/svgs/chat.svg " class="card-img-top" alt="Fissure in Sandstone" />
+						<div class="card-body">
+							<h5 class="card-title">Service personnalisé</h5>
+							<p class="card-text">Reoaked propose <b>un service d’expertise de fûts</b> par des
+								professionnels avant la finalisation de la transaction. Notre équipe peut vous apporter
+								un <b>conseil personnalisé</b> ou une prestation de recherche spécifique.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="action_content ">
+		<div class="container py-5">
+			<div class="row align-items-md-center">
+				<div class="col-12 col-md-8">
+					<h2 class="titel_text">Besoin d’aide ? <br>
+						Envie de vous faire accompagner ?</h2>
+					<p class="_text">Besoin d'aide pour enregister votre annonce ? <br>
+						Vous souhaitez réaliser une recherche personnalisée ?
+					</p>
+				</div>
+				<div class="col-12 col-md-4">
+					<a href="#" class="gray_common_btn">Voir toutes les offres</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/Main layout-->
+
+	<!--Footer-->
+	<footer class="footer">
+		<!--Copyright-->
+		<div class="container-fluid py-3 px-4">
+			<div class=" footer-copyright">
+				<ul class="footer-links">
+					<li>
+						<a href="" class="footer-link">Contact Presse</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Mentions légales</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Conditions d’utilisation</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Politique de confidentialité</a>
+					</li>
+				</ul>
+
+				<a href="" class="social_links"><img src="img/svgs/MDI - linkedin.svg" alt="linkedin"></a>
+
+				<p class="copy_text">
+					Copyright © Reoaked 2021 | Design by : <a href="http://www.MDBootstrap.com">Showmenow</a>
+				</p>
+			</div>
+		</div>
+		<!--/.Copyright-->
+
+	</footer>
+
+
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script src="js/popper.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- MDB PLUGINS -->
+	<script type="text/javascript" src="plugins/js/all.min.js"></script>
+	<!-- Initializations -->
+	<script src="js/lazy.js"></script>
+	<!-- swiper js -->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+	<script src="js/main.js"></script>
+	<!-- /SCRIPTS -->
+
+</body>
+
+</html>

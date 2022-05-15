@@ -1,0 +1,7 @@
+<svg id="view-dashboard-outline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Boundary" fill="#e08100" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path id="Path_view-dashboard-outline" data-name="Path / view-dashboard-outline" d="M19,5V7H15V5h4M9,5v6H5V5H9m10,8v6H15V13h4M9,17v2H5V17H9M21,3H13V9h8V3M11,3H3V13h8V3m10,8H13V21h8V11M11,15H3v6h8Z" fill="#e08100"/>
+</svg>

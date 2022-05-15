@@ -1,0 +1,28 @@
+
+.no_login{
+    background-image: url(../img/matt-hoffman-dctHPHih-sc-unsplash.png);
+        background-repeat: repeat;
+        background-size: cover;
+        width: 100%;
+        height: calc( 100vh - 85px );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .no_login_content{
+            text-align: center;
+            img{
+                max-width: 330px;
+                width: 90%;
+                margin-bottom: 40px;
+            }
+            h1{
+                color: $color_white;
+                font-size: 90px;
+                width: 80%;
+                margin: 30px auto;
+                font-family: $f-bodoni;
+            }
+            
+        }
+}
+

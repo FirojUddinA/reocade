@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- MDB ESSENTIAL -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- MDB PLUGINS -->
+  <link rel="stylesheet" href="plugins/css/all.min.css" />
+  <!-- Custom styles -->
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="./fonts/style.css">
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Document</title>
+</head>
+
+
+
+
+<body class="home_page">
+	<header class="sticky-top ">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg p-0">
+			<!-- megamenu toggle  button -->
+
+			<div  class="mega_menu">				
+				<span></span>
+			</div>
+
+			<!-- Navbar brand -->
+			<a class="navbar-brand " href="#">
+				<img src="./img/svgs/logo.svg" alt="MDB Logo" loading="lazy" />
+			</a>
+			<!-- Action Button -->
+			<a class="action-btn" href="#">
+				<span class="ic_con icon-acheter"></span>
+				<span class="clearfix d-none d-lg-inline-block ps-3">Déposer une offre</span>
+			</a>
+			<ul  class="nav navbar-nav ms-auto nave_menu">
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-search"></span>
+						
+						<span class="clearfix d-none d-lg-inline-block">Rechercher</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-bell-outline"></span>
+						<span class="clearfix d-none d-lg-inline-block">Mes recherches</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						
+						<span class="ic_con icon-heart-outline"></span>
+						<span class="clearfix d-none d-lg-inline-block">Favoris</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<span class="ic_con icon-envelop"></span>
+						<span class="clearfix d-none d-lg-inline-block">Messagerie</span>
+					</a>
+				</li>
+			</ul>		
+			<div class="">
+				<a href="#" class="mega_cart">
+					<span class="ic_con icon-transactions"></span>
+					<p class="cart_num">10</p>
+				</a>
+			</div>
+			<div class="">
+				<a href="#" class="my_account">
+					<span class="ic_con icon-person-circle"></span>
+					<span class="hide_text">Account</span>
+				</a>
+			</div>
+		</nav>
+		<!-- /.Navbar -->
+		<!-- megamenu -->
+
+		<div class="mega_menu_content">
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">A propos</a>
+					<p>Nos services et expertises</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">Charte qualité</a>
+					<p>Texte de présentation de la charte qualité de Reoaked</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">FAQ</a>
+					<p>Texte de présentation pour la FAQ de la plateforme</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">Nos Offres</a>
+					<p>Texte de présentation du service payant de Reoaked</p>
+				</div>
+				<div class="menu_content">
+					<a href="#" class="menu_title_lint">Dans le monde</a>
+					<p>Texte de présentation sur la dimension internationale de la plateforme</p>
+				</div>
+				
+		</div>
+	</header>
+	
+	<!--Main layout-->
+	<section class="modifier my-5">
+		<div class="container">
+			<h2 class="titel_text">Lot de 10 fûts de 228L</h2>
+
+			<div class="modifier_content">
+				<div class="steps " id="sandbox-container">
+					<h4 class="step_heading">1. Vos photos</h4>
+
+
+					<div class="step_box">
+						<div class="row align-items-end">
+							<div class="col-12 col-lg-5 ">
+								<div class="main_img product_image">
+									<label for="main_image">
+										<input class="file_uploa" id="main_image" name="file_cover" type="file">
+										<img id="previewImg" src="./img/svg/phote_up.svg" alt="">
+									</label>
+									<div class="uploaded_image">
+										<img src="./img/white.jpg" alt="" class="up_image">
+
+										<label for="main_image" class="action_button edit">
+											<span class="ic_con icon-lead-pencil"></span>
+										</label>
+										<button class="action_button delete">
+											<span class="ic_con icon-trash-can-outline"></span>
+										</button>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-12 col-lg-7">
+								<div class="more_img_content">
+									<p>Vous pouvez ajouter, modifier ou supprimer les photos que vous avez téléchargées.
+									</p>
+									<div id="more_images">
+										<div class="main_img">
+											<label for="main_image1">
+												<input class="file_upload1" id="main_image1" name="file_cover"
+													type="file">
+												<img class="previewImg" src="./img/svg/phote_up.svg" alt="">
+											</label>
+											<div class="uploaded_image">
+												<img src="./img/white.jpg" alt="" class="up_image">
+
+												<label for="main_image1" class="action_button edit">
+													<span class="ic_con icon-lead-pencil"></span>
+												</label>
+												<button class="action_button delete">
+													<span class="ic_con icon-trash-can-outline"></span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="steps">
+					<h4 class="step_heading">2. Description de vos fûts</h4>
+					<div class="step_box">
+						<div class="row">
+							<div class="col-lg-6 mb-3">
+								<p class="input_title">Type de vin</p>
+								<div class="input_radio">
+									<div class="form-group">
+										<input type="radio" id="blanc" name="de_vin" />
+										<label for="blanc">Blanc</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="rouge" name="de_vin" />
+										<label for="rouge">Rouge</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="spiritueux" name="de_vin" />
+										<label for="spiritueux">Autres vins/spiritueux</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-3">
+								<p class="input_title">Origine du bois</p>
+								<div class="input_radio">
+									<div class="form-group">
+										<input type="radio" id="France" name="du_bois" />
+										<label for="France">France</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="Europe" name="du_bois" />
+										<label for="Europe">Europe</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="Amérique" name="du_bois" />
+										<label for="Amérique">Amérique du Nord</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class="col-md-6 col-lg-3 mb-3">
+								<p class="input_title">Capacité d’un fût </p>
+								<div class="d-flex align-items-center">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">700</span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="capacite" class="data_input">
+										<ul class="select_menu">
+											<li id="700">700</li>
+											<li id="800">800</li>
+											<li id="900">900</li>
+										</ul>
+									</div>
+									<p class="m-0 ps-3">litres</p>
+								</div>
+
+							</div>
+							<div class="col-md-6 col-lg-3 mb-3">
+								<p class="input_title">Nombre de fût à vendre </p>
+								<div class="d-flex align-items-center">
+									<input type="text" id="nombre" class="" placeholder="">
+									<p class="m-0 ps-3">fûts</p>
+								</div>
+
+
+							</div>
+							<div class="col-lg-6">
+								<p class="input_title">Date du dernier soutirage</p>
+								<div class="date_picker">
+									<div class="input-group date" id="datepicker1">
+										<input type="text" class="date_pic">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+
+							<div class="col-lg-6 mb-3">
+								<p class="input_title">Fabricant</p>
+								<div class="">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">Tonnellerie Baron</span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="capacite" class="data_input">
+										<ul class="select_menu">
+											<li id="700">Tonnellerie Baron asdfads</li>
+											<li id="800">Tonnellerie Baron</li>
+											<li id="900">Tonnellerie Baron</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-md-6 col-lg-3 mb-3">
+								<p class="input_title">Temps de séchage</p>
+								<div class="d-flex align-items-center">
+									<input type="text" id="nombre" class="" placeholder="">
+									<p class="m-0 ps-3">mois</p>
+								</div>
+
+							</div>
+							<div class="col-md-6 col-lg-3 mb-3">
+								<p class="input_title">Nombre d’élevage</p>
+								<div class="d-flex align-items-center">
+									<input type="text" id="nombre" class="" placeholder="">
+									<p class="m-0 ps-3">élevage(s)</p>
+								</div>
+
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<p class="input_title">Grain du bois</p>
+								<div class="input_radio">
+									<div class="form-group">
+										<input type="radio" id="tres" name="grain_du_bois" />
+										<label for="tres">Très fin</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="fin" name="grain_du_bois" />
+										<label for="fin">Fin</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="moyen" name="grain_du_bois" />
+										<label for="moyen">Moyen fin</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<p class="input_title">Épaisseur du bois</p>
+								<div class="input_radio">
+									<div class="form-group">
+										<input type="radio" id="epaisseur22mm" name="epaisseur_du_bois" />
+										<label for="epaisseur22mm">22 mm</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="epaisseur27mm" name="epaisseur_du_bois" />
+										<label for="epaisseur27mm">27 mm</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="epaisseur42mm" name="epaisseur_du_bois" />
+										<label for="epaisseur42mm">42 mm</label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+
+							<div class="col-lg-6">
+								<p class="input_title">Type de chauffe</p>
+								<div class="">
+									<div class="custom_select">
+										<div class="select_title">
+											<span class="selected">Tonnellerie Baron</span>
+											<span class="icon-menu-down"></span>
+										</div>
+										<input type="hidden" name="de_chauffe" class="data_input">
+										<ul class="select_menu">
+											<li id="700">Tonnellerie Baron asdfads</li>
+											<li id="800">Tonnellerie Baron</li>
+											<li id="900">Tonnellerie Baron</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="steps step_full">
+					<h4 class="step_heading">3. Prix affiché pour votre offre</h4>
+
+					<div class="step_full_content">
+						<div class="prtceing_head">
+							<p>Votre prix de départ</p>
+
+							<div class="price_box">
+								<div class="box_price">1 650,00</div>
+								<span>euros</span>
+							</div>
+						</div>
+						<div class="pricing_body">
+							<p class="p_body_hint text-right">
+								Prix par fûts : 110,00 euros
+							</p>
+							<div class="price_content">
+								<p class="p_c_name">Estimation pour le coût de transport</p>
+								<div class="p_c_price_box">
+									<p class="p_c_price">270,00 euros</p>
+									<div class="price_info">
+										<a href="#" data-toggle="tooltip" title="The last tip!">
+											<img src="./img/help-circle.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="price_content">
+								<p class="p_c_name">Estimation pour le coût de transport</p>
+								<div class="p_c_price_box">
+									<p class="p_c_price">270,00 euros</p>
+									<div class="price_info">
+										<a href="#" data-toggle="tooltip" title="The last tip!">
+											<img src="./img/help-circle.png" alt="">
+										</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pricing_footer">
+							<div class="price_content">
+								<p class="p_c_name">TOTAL HT</p>
+								<p class="p_c_price">2 085,00 euros</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="steps">
+					<h4 class="step_heading">4. Vos dates prévues pour la vente</h4>
+					<div class="step_box">
+						<div class="row">
+							<div class="col-12  col-lg-5">
+								<p>Date de d'expiration de l'offre</p>
+								<div class="date_picker mb-2">
+									<div class="input-group date" id="datepicker2">
+										<input type="text" class="date_pic">
+										
+									</div>
+
+									
+								</div>
+								<div class="input_radio">
+									<div class="form-group">
+										<input type="checkbox" id="cette_date" name="cette_date" />
+										<label for="cette_date">Me prévenir 1 semaine avant cette date</label>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-12  col-lg-5">
+								<p>Date du dernier soutirage</p>
+								<div class="date_picker mb-2">
+									<div class="input-group date" id="datepicker3">
+										<input type="text" class="date_pic">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 location">
+								<p>Lieu où sont stockés les fûts pour enlèvement</p>
+
+								<div class="input_radio ">
+									<div class="form-group">
+										<input type="radio" id="location1" name="enlevement" />
+										<label for="location1">20 Rue des Gillardeaux, 17100 Les Gonds</label>
+									</div>
+									<div class="form-group">
+										<input type="radio" id="location2" name="enlevement" />
+										<label for="location2">Autre lieu</label>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col addres_content">
+								<div class="addres_c">
+									<label for="adresse">Adresse</label>
+									<input type="text" id="adresse" class="light_input">
+								</div>
+								<div class="addres_c">
+									<label for="postal_code">Code postal</label>
+									<input type="text" id="postal_code" class="light_input">
+								</div>
+								<div class="addres_c">
+									<label for="ville">Ville</label>
+									<input type="text" id="ville" class="light_input">
+								</div>
+							</div>
+						</div>
+
+						<div class="submit_form_container">
+							<input class="submit_form" type="button" value="Enregistrer les modifications">
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!--/Main layout-->
+
+	<!--Footer-->
+	<footer class="footer">
+		<!--Copyright-->
+		<div class="container-fluid py-3 px-4">
+			<div class=" footer-copyright">
+				<ul class="footer-links">
+					<li>
+						<a href="" class="footer-link">Contact Presse</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Mentions légales</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Conditions d’utilisation</a>
+					</li>
+					<li>
+						|
+					</li>
+					<li>
+						<a href="" class="footer-link">Politique de confidentialité</a>
+					</li>
+				</ul>
+
+				<a href="" class="social_links"><img src="img/svgs/MDI - linkedin.svg" alt="linkedin"></a>
+
+				<p class="copy_text">
+					Copyright © Reoaked 2021 | Design by : <a href="http://www.MDBootstrap.com">Showmenow</a>
+				</p>
+			</div>
+		</div>
+		<!--/.Copyright-->
+
+	</footer>
+
+
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script src="js/popper.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- MDB PLUGINS -->
+	<script type="text/javascript" src="plugins/js/all.min.js"></script>
+	<!-- Initializations -->
+	<script src="js/lazy.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- swiper js -->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+	</script>
+	<script src="js/main.js"></script>
+	<!-- /SCRIPTS -->
+
+	<script>
+
+	</script>
+</body>
+
+</html>

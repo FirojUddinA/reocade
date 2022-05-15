@@ -1,0 +1,7 @@
+<svg id="arrow-collapse-right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Boundary" fill="#272034" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path id="Path_arrow-collapse-right" data-name="Path / arrow-collapse-right" d="M12.08,4.08,20,12l-7.92,7.92L10.67,18.5l5.5-5.5H2V11H16.17l-5.5-5.5,1.41-1.42M20,12V22h2V2H20Z" fill="#272034"/>
+</svg>

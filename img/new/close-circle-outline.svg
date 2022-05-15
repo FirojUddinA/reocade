@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="MDI_close-circle-outline" data-name="MDI / close-circle-outline" transform="translate(0.114 0.113)">
+    <g id="Boundary" transform="translate(-0.114 -0.113)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="18" height="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+    </g>
+    <path id="Path_close-circle-outline" data-name="Path / close-circle-outline" d="M9.405,15.33A5.924,5.924,0,1,1,15.33,9.405,5.932,5.932,0,0,1,9.405,15.33M9.405,2a7.405,7.405,0,1,0,7.405,7.405A7.4,7.4,0,0,0,9.405,2m1.918,4.443L9.405,8.361,7.487,6.443,6.443,7.487,8.361,9.405,6.443,11.323l1.044,1.044L9.405,10.45l1.918,1.918,1.044-1.044L10.45,9.405l1.918-1.918Z" transform="translate(-0.519 -0.519)" fill="#fff"/>
+  </g>
+</svg>
