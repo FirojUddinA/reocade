@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="./fonts/style.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+
+
+
+<body class="home_page">
+
+    <header class="sticky-top ">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg p-0">
+            <!-- megamenu toggle  button -->
+
+            <div class="mega_menu">
+                <span></span>
+            </div>
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand " href="#">
+                <img src="./img/svgs/logo.svg" alt="MDB Logo" loading="lazy" />
+            </a>
+            <!-- Action Button -->
+            <a class="action-btn" href="#">
+                <span class="ic_con icon-acheter"></span>
+                <span class="clearfix d-none d-lg-inline-block ps-3">Déposer une offre</span>
+            </a>
+            <ul class="nav navbar-nav ms-auto nave_menu">
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span class="ic_con icon-search"></span>
+
+                        <span class="clearfix d-none d-lg-inline-block">Rechercher</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span class="ic_con icon-bell-outline"></span>
+                        <span class="clearfix d-none d-lg-inline-block">Mes recherches</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+
+                        <span class="ic_con icon-heart-outline"></span>
+                        <span class="clearfix d-none d-lg-inline-block">Favoris</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <span class="ic_con icon-envelop"></span>
+                        <span class="clearfix d-none d-lg-inline-block">Messagerie</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="">
+                <a href="#" class="mega_cart">
+                    <span class="ic_con icon-transactions"></span>
+                    <p class="cart_num">10</p>
+                </a>
+            </div>
+            <div class="">
+                <a href="#" class="my_account">
+                    <span class="ic_con icon-person-circle"></span>
+                    <span class="hide_text">Account</span>
+                </a>
+            </div>
+        </nav>
+        <!-- /.Navbar -->
+        <!-- megamenu -->
+
+        <div class="mega_menu_content">
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">A propos</a>
+                <p>Nos services et expertises</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">Charte qualité</a>
+                <p>Texte de présentation de la charte qualité de Reoaked</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">FAQ</a>
+                <p>Texte de présentation pour la FAQ de la plateforme</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">Nos Offres</a>
+                <p>Texte de présentation du service payant de Reoaked</p>
+            </div>
+            <div class="menu_content">
+                <a href="#" class="menu_title_lint">Dans le monde</a>
+                <p>Texte de présentation sur la dimension internationale de la plateforme</p>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="fixed_navigation">
+        <div class="nav_content">
+            <div class="back">
+                <div class="back_btn">
+                    <span class="ic_con icon-arrow-collapse-right"></span>
+                    <span class="open_fix_nav">Déployer</span>
+                    <span class="close_fix_nav">Fermer</span>
+                </div>
+            </div>
+            <ul class="fixed_nav  mb-1">
+                <li class="fixed_nav_item">
+                    <a href="#">
+                        <span class="ic_con icon-view-dashboard-outline"></span>
+                        <span class="hide_nav_text">Mon compte</span>
+                    </a>
+                </li>
+                <li class="fixed_nav_item">
+                    <a href="#">
+                        <span class="ic_con icon-acheter"></span>
+                        <span class="hide_nav_text">Annonces en ligne</span>
+
+                    </a>
+                </li>
+                <li class="fixed_nav_item">
+                    <a href="#">
+                        <span class="ic_con icon-transactions"></span>
+                        <span class="hide_nav_text">Transactions</span>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="fixed_nav ">
+                <li class="fixed_nav_item">
+                    <a href="#">
+                        <span class="ic_con icon-heart-outline"></span>
+                        <span class="hide_nav_text">Favoris</span>
+                    </a>
+                </li>
+                <li class="fixed_nav_item">
+                    <a href="#">
+                        <span class="ic_con icon-account-outline"></span>
+                        <span class="hide_nav_text">Protil</span>
+                    </a>
+                </li>
+                <li class="fixed_nav_item">
+                    <a href="#">
+                        <span class="ic_con icon-shield-account-outline"></span>
+                        <span class="hide_nav_text">Connexions & securite</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Main layout-->
+
+    <section class="profile mt-5">
+        <div class="container">
+            <h2 class="titel_text">Mon profil</h2>
+            <div class="profile_st profile_2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="content">
+                            <h3 class="compte_de2_heading">Données personnelles</h3>
+
+                            <form action="" class="form">
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <div class="input-wrap mb-4">
+                                            <label for="email">Email</label>
+                                            <input type="text" id="email" placeholder="jacques@petrus.fr"
+                                                name="email">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrap mb-4">
+                                            <label for="passe">Mot de passe</label>
+
+                                            <div class="prefix_input">
+                                                <input type="password" id="passe" placeholder="passe"
+                                                    name="passe">
+                                                <button type="button"><span
+                                                        class="ic_con icon-lead-pencil"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <div class="input-wrap mb-4">
+                                            <label for="societe">Société</label>
+                                            <input type="text" id="societe"
+                                                placeholder="Château La Fleur-Pétrus" name="societe">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row  pb-3">
+                                    <div class="col addres_content">
+                                        <div class="addres_c">
+                                            <label for="adresse">Adresse</label>
+                                            <input type="text" id="adresse" placeholder="7 Rue de Tropchaud" class="light_input">
+                                        </div>
+                                        <div class="addres_c">
+                                            <label for="postal_code">Code postal</label>
+                                            <input type="text" id="postal_code" placeholder="33500" class="light_input">
+                                        </div>
+                                        <div class="addres_c">
+                                            <label for="ville">Ville</label>
+                                            <input type="text" id="ville" placeholder="Pomerol" class="light_input">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <div class="submit_profile">
+                                            <button class="primary_btn">ENREGISTRER LES MODIFICATIONS</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile_st profile_3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="content">
+                            <h3 class="compte_de2_heading">Lieux d’enlèvement et de livraison</h3>
+
+
+                            <form action="" class="form_transport">
+                                <p class="compt_text">Enlèvement</p>
+                                <div class="row  pb-3">
+                                    <div class="col addres_content">
+                                        <div class="addres_c">
+                                            <label for="adresse2">Adresse</label>
+                                            <input type="text" id="adresse2" placeholder="7 Rue de Tropchaud" class="light_input">
+                                        </div>
+                                        <div class="addres_c">
+                                            <label for="postal_code2">Code postal</label>
+                                            <input type="text" id="postal_code2" placeholder="33500" class="light_input">
+                                        </div>
+                                        <div class="addres_c">
+                                            <label for="ville2">Ville</label>
+                                            <input type="text" id="ville2" placeholder="Pomerol" class="light_input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="compt_text">Livraison </p>
+                                <div class="input_radio pb-2">
+                                    <div class="form-group mb-2">
+                                        <input type="radio" id="location1" name="enlevement" />
+                                        <label for="location1">Identique au lieu d’enlèvement</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" id="location2" name="enlevement" />
+                                        <label for="location2">Autre lieu</label>
+                                    </div>
+                                </div>
+                                <div class="row pb-3">
+                                    <div class="col addres_content addres_content_light">
+                                        <div class="addres_c">
+                                            <label for="adresse">Adresse</label>
+                                            <input type="text" id="adresse" class="light_input">
+                                        </div>
+                                        <div class="addres_c">
+                                            <label for="postal_code">Code postal</label>
+                                            <input type="text" id="postal_code" class="light_input">
+                                        </div>
+                                        <div class="addres_c">
+                                            <label for="ville">Ville</label>
+                                            <input type="text" id="ville" class="light_input">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <div class="submit_profile">
+                                            <button class="primary_btn">ENREGISTRER LES MODIFICATIONS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile_st profile_2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="content">
+                            <h3 class="compte_de2_heading">Données administratives & bancaires</h3>
+
+
+                            <form action="" class="form">
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <div class="input-wrap mb-4">
+                                            <label for="intracommunautaire">Numéro TVA intracommunautaire
+                                            </label>
+                                            <input type="text" id="intracommunautaire"
+                                                placeholder="TVA FR 86 459 789 985" name="email">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrap mb-4">
+                                            <label for="siren">Numéro SIREN</label>
+
+                                            <input type="text" id="siren" placeholder="000 000 000  00000"
+                                                name="siren">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="compt_text">Carte bancaire</p>
+                                <div class="row ">
+                                    <div class="col-lg-6">
+                                        <div class="input-wrap mb-4">
+                                            <label for="bancaire">Nom sur la carte bancaire</label>
+                                            <input type="text" id="bancaire"
+                                                name="bancaire">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-wrap mb-4">
+                                                    <label for="siren">Numéro</label>
+                                                    <input type="text" id="siren"
+                                                        placeholder="____|____|____|____" name="siren">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-7 col-md-3">
+                                                <div class="input-wrap mb-4">
+                                                    <label for="expire_le">Expire le :</label>
+
+                                                    <input type="text" id="expire_le" placeholder="___/____"
+                                                        name="expire_le">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-5 col-md-3">
+                                                <div class="input-wrap mb-4">
+                                                    <label for="siren">Crypto :</label>
+
+                                                    <div class="d-flex">
+                                                        <input type="text" id="siren" placeholder="___"
+                                                        name="siren">
+                                                        <img src="./img/svg/crypto-cb.svg" alt="" class="ps-2">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="compt_text">Relevé d’identité bancaire</p>
+                                <div class="row ">
+                                    <div class="col-md-9">
+                                        <div class="row">
+                                            
+                                            <div class="col-md-6">
+                                                <div class="input-wrap mb-4">
+                                                    <label for="titulaire">Titulaire du compte</label>
+                                                    <input type="text" id="titulaire" placeholder=""
+                                                        name="titulaire">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrap mb-4">
+                                                    <label for="iban">IBAN</label>
+                                                    <input type="text" id="iban" placeholder="____|____|____|____|____|____|___"
+                                                        name="iban">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="input-wrap mb-4">
+                                            <label for="bic">BIC</label>
+                                            <input type="text" id="bic" placeholder="_______"
+                                                name="bic">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <div class="submit_profile">
+                                            <button class="primary_btn">ENREGISTRER LES MODIFICATIONS</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="services">
+        <div class="container py-5">
+            <h2 class="title_text text-center">Nous faire confiance</h2>
+            <p class="_text2 text-center pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+                faucibus
+                eros. Donec sit
+                amet turpis ultrices, mattis turpis quis, cursus justo. Curabitur iaculis nunc ac mauris auctor blandit.
+                Nullam luctus at mauris convallis aliquet. Donec fermentum neque nec ornare aliquet. </p>
+
+            <div class="row">
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./img/svgs/users.svg " class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">Large communauté</h5>
+                            <p class="card-text">Vendez vos barriques aux viticulteurs et distillateurs du <b>monde
+                                    entier</b>.
+                                <br>
+                                Retrouvez des fûts rares, ayant contenu les plus grands vins et spiritueux.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./img/svgs/shield.svg" class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">Sécurisé et sûr</h5>
+                            <p class="card-text">Chaque utilisateur de Reoaked est un <b>professionnel qualifié. </b>
+
+                                Nous <b>sécurisons la transaction</b> et organisons la logistique.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./img/svgs/chat.svg " class="card-img-top" alt="Fissure in Sandstone" />
+                        <div class="card-body">
+                            <h5 class="card-title">Service personnalisé</h5>
+                            <p class="card-text">Reoaked propose <b>un service d’expertise de fûts</b> par des
+                                professionnels avant la finalisation de la transaction. Notre équipe peut vous apporter
+                                un <b>conseil personnalisé</b> ou une prestation de recherche spécifique.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--Copyright-->
+        <div class="container-fluid py-3 px-4">
+            <div class=" footer-copyright">
+                <ul class="footer-links">
+                    <li>
+                        <a href="" class="footer-link">Contact Presse</a>
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Mentions légales</a>
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Conditions d’utilisation</a>
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        <a href="" class="footer-link">Politique de confidentialité</a>
+                    </li>
+                </ul>
+
+                <a href="" class="social_links"><img src="img/svgs/MDI - linkedin.svg" alt="linkedin"></a>
+
+                <p class="copy_text">
+                    Copyright © Reoaked 2021 | Design by : <a href="http://www.MDBootstrap.com">Showmenow</a>
+                </p>
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="js/popper.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- MDB PLUGINS -->
+    <script type="text/javascript" src="plugins/js/all.min.js"></script>
+    <!-- Initializations -->
+    <script src="js/lazy.js"></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8.1.4/swiper-bundle.min.js"></script>
+    <script src="js/multistep-form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+    </script>
+
+    <script src="js/main.js"></script>
+    <!-- /SCRIPTS -->
+
+</body>
